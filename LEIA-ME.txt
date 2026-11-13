@@ -1,0 +1,19 @@
+ESTUDA+ — versão Android (PWA)
+
+CONTEÚDO
+- index.html: aplicativo
+- manifest.webmanifest: configuração de instalação
+- sw.js: suporte offline/cache
+
+COMO COLOCAR NO ANDROID
+1. Publique os três arquivos em um endereço HTTPS (por exemplo, GitHub Pages).
+2. Abra o endereço no Google Chrome do Android.
+3. Toque no menu ⋮ e escolha "Instalar app" ou "Adicionar à tela inicial".
+4. Abra pelo ícone Estuda+.
+
+OBSERVAÇÕES
+- Os dados ficam salvos localmente no navegador/aparelho (localStorage).
+- Não limpe os dados do site se quiser preservar seu histórico.
+- O app não sincroniza dados entre aparelhos.
+- O alarme sonoro funciona com o app aberto; notificações dependem da permissão e do suporte do navegador.
+- A instalação PWA exige hospedagem HTTPS; abrir o HTML diretamente como arquivo não habilita todos os recursos de instalação/offline.
